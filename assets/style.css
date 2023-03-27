@@ -1,8 +1,11 @@
-.hide {
-    display: none;
-  }
-      
-  .project:hover + .hide {
-    display: block;
-    color: black;
-  }
+.container{
+    position:relative;
+}
+
+
+.overlay {
+    position:relative;
+    color:white;
+    bottom:60px;
+    top:60px;
+}
