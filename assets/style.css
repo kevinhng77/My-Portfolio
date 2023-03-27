@@ -6,6 +6,10 @@ nav{
     float:right;
     background-color: #333;
 }
+nav ul {
+    float:right;
+    font-size: larger;
+}
 h1, h2, h3, h4{
     font-weight: bold;
     color: black;
@@ -22,4 +26,18 @@ nav a {
     font-size: 25px;
   }
 
+  .project {
+    position:relative;
+  }
+  
+  .text {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
   
