@@ -1,43 +1,38 @@
 *{
     background-color: lightblue;
+    text-align: start ;
 }
-nav{
+
+.project{
+  text-align: start;
+}
+
+nav {
     position:relative;
     float:right;
-    background-color: #333;
 }
-nav ul {
-    float:right;
-    font-size: larger;
+
+nav a {
+  color:black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  border:  25px solid green;
 }
-h1, h2, h3, h4{
+
+h1, h2, h3, h4 {
     font-weight: bold;
     color: black;
     font-size: 44px;
   }
   
+.project {
+  position:relative;
+  text-align: center;
+}
 
-nav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 25px;
-  }
-
-  .project {
-    position:relative;
-  }
-  
-  .text {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    background-color: black;
-    color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-
-  }
-  
+.text{
+  top:50%;
+  left:50%;
+}
