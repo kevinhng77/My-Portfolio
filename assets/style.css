@@ -1,20 +1,18 @@
+*{
+    background-color: lightblue;
+}
 nav{
     position:relative;
     float:right;
     background-color: #333;
 }
-h1 {
+h1, h2, h3, h4{
     font-weight: bold;
-    color: #fff;
-    font-size: 32px;
+    color: black;
+    font-size: 44px;
   }
   
-  h2 {
-    font-weight: bold;
-    color: #fff;
-    font-size: 24px;
-  }
-  
+
 nav a {
     float: left;
     color: #f2f2f2;
@@ -24,8 +22,4 @@ nav a {
     font-size: 25px;
   }
 
-  .project {
-    position:relative;
-    text-align: center;
-    color:white;
-  }
+  
