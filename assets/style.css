@@ -1,11 +1,31 @@
-.container{
+nav{
     position:relative;
+    float:right;
+    background-color: #333;
 }
+h1 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 32px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 24px;
+  }
+  
+nav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+  }
 
-
-.overlay {
+  .project {
     position:relative;
+    text-align: center;
     color:white;
-    bottom:60px;
-    top:60px;
-}
+  }
