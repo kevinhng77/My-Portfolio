@@ -3,10 +3,6 @@
     text-align: start ;
 }
 
-.project{
-  text-align: start;
-}
-
 nav {
     position:relative;
     float:right;
@@ -20,25 +16,17 @@ nav a {
   font-size: 25px;
 }
 
-h1, h2, h3, h4 {
-    font-weight: bold;
-    color: black;
-    font-size: 44px;
-  }
-
-#h2block p{
-  font-size: 50px;
+nav a:hover {
+  background-color: white;
 }
 
-a {
-    font-size: 30px;
-  }
-  
+/* make the 3 dog pictures in the middle */
 .project {
   position:relative;
   text-align: center;
 }
 
+/* words in the middle of pictures */
 .text {
   position: absolute;
   top: 50%;
@@ -47,3 +35,4 @@ a {
   color: white;
   font-size: 24px;
 }
+
