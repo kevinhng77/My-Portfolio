@@ -62,9 +62,11 @@ h1 {
   top:80px;
 }
 
-/* move about me description */
-h2block p {
-  position:relative;
-  left: 25%;
-  font-size: larger;
+
+/* media query for changing screen */
+@media screen and (max-width: 900px) {
+  body {
+    background-color: black;
+    display: flex;
+  }
 }
